@@ -93,6 +93,15 @@ body {
     font-family: 'Questrial';
     background: var(--body-color);
     color: #fff;
+    font-size: 18px;
+}
+
+section {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .wrapper {
@@ -138,4 +147,22 @@ header .container {
 .main-nav ul li a {
     color: #fff;
     font-family: 'Questrial';
+}
+
+.main-nav ul li a:hover, .main-nav ul li a .active {
+    text-decoration: underline;
+}
+
+.home-title {
+    font-family: var(--heading-font);
+    font-size: 77px;
+    line-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
 }
