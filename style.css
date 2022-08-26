@@ -153,7 +153,7 @@ header .container {
     text-decoration: underline;
 }
 
-.home-title {
+.page-title {
     font-family: var(--heading-font);
     font-size: 77px;
     line-height: 100%;
